@@ -10,11 +10,10 @@ Our services contain a broad range of soccer data analysis from providing multim
 1. **[Event Detection (Image based)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Event%20Detection%20(Image%20Based))**: Using this module, you can process a full video of a soccer match, obtaining all of the events occurred in the match. The input could be a soccer match with any time duration, while the output, after processing and distinguishing events, is a tagged video, in which the events occurred on any time will be highlighted by a tag on the video.
 
 
-![alttext](./Images/img_event.jp "caption")
 
 
 
-<figure class="image">
+<figure class="center">
 <img align="center" src="./Images/img_event.jpg" alt="5 Event Detection (Image based) sample output" width = 578px height = 204px >
 <figcaption>Figure 1. sample output of event detection (image based) module</figcaption>
 </figure>
