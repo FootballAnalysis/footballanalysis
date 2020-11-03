@@ -12,11 +12,12 @@ Our services contain a broad range of soccer data analysis from providing multim
 
 
 
-
+<div align="center">
 <figure class="center">
 <img align="center" src="./Images/img_event.jpg" alt="5 Event Detection (Image based) sample output" width = 578px height = 204px >
 <figcaption>Figure 1. sample output of event detection (image based) module</figcaption>
 </figure>
+</div>
 <br/><br/>
 
 
