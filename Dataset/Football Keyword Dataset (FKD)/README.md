@@ -38,11 +38,9 @@
 
 - This dataset can also be used for Speaker Verification (SV), given that there is an average of 10 samples from each speaker.
 
-- Two telegram bots [GozareshgarBot](https://telegram.me/Bot_Gozareshgar) and [CrowdBot](https://telegram.me/VoiceReaction_1_bot) has been created to collect audio files as crowdsourcing with OGG Vorbis format. For more details about how to clean and use for continuous speech, please wait for our future paper [EfficientNet for Continuous Speech Keyword Spotting, Using Football Keywords Dataset](https://#).
+- Two telegram bots [GozareshgarBot](https://telegram.me/Bot_Gozareshgar) and [CrowdBot](https://telegram.me/VoiceReaction_1_bot) has been created to collect audio files as crowdsourcing with OGG Vorbis format. For more details about how to clean and use for continuous speech, please wait for our paper [EfficientNet-Absolute Zero for Continuous Speech Keyword Spotting
+](https://arxiv.org/abs/2012.15695).
 
 - Data set splited to test and train part
 
-### FKD download links:
-1. [Google Drive Link](https://)
-2. [Direct Link](https://)
-3. [Mirror Link](htttp://)
+
