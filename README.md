@@ -7,7 +7,7 @@ Our services contain a broad range of soccer data analysis from providing multim
 
 **Our main submodules are as below: (please click on each for more information)**
 <br/>
-1. **[Event Detection (Image based)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Event%20Detection%20(Image%20Based))**: Using this module, you can process a full video of a soccer match, obtaining all of the events occurred in the match. The input could be a soccer match with any time duration, while the output, after processing and distinguishing events, is a tagged video, in which the events occurred on any time will be highlighted by a tag on the video.
+1. **[Event Detection (Image based)](https://github.com/FootballAnalysis/footballanalysis/tree/main/Event%20Detection%20(Image%20Based))**: Using this module, you can process a full video of a soccer match, obtaining all of the events occurred in the match. The input could be a soccer match with any time duration, while the output, after processing and distinguishing events, is a tagged video, in which the events occurred on any time will be highlighted by a tag on the video.
 
 
 
@@ -73,8 +73,8 @@ finally, our datasets for each task which are collected for this project and ava
 1. [Football Keywords Dataset (FKD)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Football%20Keyword%20Dataset%20(FKD))
 2. [Line Detection Dataset (LDD)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Line%20Detection%20Dataset)
 3. [Segmentation Dataset](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Segmentation%20Dataset)
-4. [Event Detection Dataset(Image Based)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Soccer%20Event%20Dataset%20(Image))
-5. [Event Detection Dataset(Video Based)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Soccer%20Event%20Dataset%20(Video))
+4. [Event Detection Dataset (Image Based)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Soccer%20Event%20Dataset%20(Image))
+5. [Event Detection Dataset (Video Based)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Soccer%20Event%20Dataset%20(Video))
 3. [Object Detection Dataset](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Object%20Detection%20Dataset)
 
 ### Contributing
