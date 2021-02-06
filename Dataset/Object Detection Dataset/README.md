@@ -57,21 +57,3 @@ SOD___Dataset.zip
                   └── images       
 ```
 - Box coordinates are in normalized xywh format (from 0 - 1) for **Yolov_format** dataset. `x_center` and `width` are divided by image width, and `y_center` and `height` by image height.
-
-## How to download dataset
-
-
-You can download the dataset from [here](https://#)
-
-## Citation
-
-When using this dataset in your research, please cite us:
-
-```
-@inproceedings{,
-  title={},
-  author={},
-  booktitle={},
-  year={}
-}
-```
