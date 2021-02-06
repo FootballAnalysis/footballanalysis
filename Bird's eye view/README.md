@@ -47,7 +47,6 @@ We then obtain the new coordinates of the detected objects center using the hemo
 
 <p align="center">
     <img src="/Images/Transformation-Formula.jpg" width = 584px height = 60px><br/>
-	Figure 1. sample output of event detection (image based) module
 </p>
 
 
