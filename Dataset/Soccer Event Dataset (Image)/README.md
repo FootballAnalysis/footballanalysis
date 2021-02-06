@@ -28,11 +28,11 @@ The scenes from the football field included:
 - **Center Circle**
 
 
-<div align="center">
-<img src="Images/ImageDataset.jpg" alt="Image Dataset"  width="500" height="320" >  
-<figcaption>Figure 1. Samples of soccer event dataset</figcaption>
+<p align="center">
+    <img src="./Images/ImageDataset.jpg" width = 500px height = 320px><br/>
+	Figure 1. Samples of soccer event dataset
+</p>
 
-</div>
 <br/>
 
 The Test Event dataset is used to test the event detection network. This dataset consists of 3 classes:
@@ -42,11 +42,11 @@ The Test Event dataset is used to test the event detection network. This dataset
 3. Other Images (Nature,Car,....)
 
 <br/>
-<div align="center">
-<img src="Images/ImageDataset2.jpg" alt="Image Dataset 2"  width="500" height="280" >  
-<figcaption>Figure 2. Samples of test event dataset</figcaption>
+<p align="center">
+    <img src="./Images/ImageDataset2.jpg" width = 500px height = 280px><br/>
+	Figure 2. Samples of test event dataset
+</p>
 
-</div>
 
 <br/>
 <br/>
@@ -60,23 +60,23 @@ Starter code for the dataset can be found [here](https://gitlab.com/footballanal
 - In each category, 5000 images are used as the training data, 500 images are used as validation data and 500 images are used as test data
 
 <br/>
+<p align="center">
+    <img src="./Images/ImageDataset_Statistics.JPG" width = 394px height = 287px><br/>
+	Table 1. Soccer Event Dataset
+</p>
 
-<div align="center">
-<img src="Images/ImageDataset_Statistics.JPG" alt="ImageDataset_Statistics"  width="394" height="287" >  
-<figcaption>Table 1. Soccer Event Dataset</figcaption>
-
-</div>
 
 <br/>
 
 - The Test Event dataset includes 4,200 images falling within 3 classes. This dataset is described in detail in table (2) 
 <br/>
+<p align="center">
+    <img src="./Images/ImageDataset_Statistics2.JPG" width = 300px height = 192px><br/>
+	Table 2. Test Event Dataset
+</p>
 
-<div align="center">
-<img src="Images/ImageDataset_Statistics2.JPG" alt="ImageDataset_Statistics2"  width="300" height="192" >  
-<figcaption>Table 2. Test Event Dataset</figcaption>
 
-</div>
+
 
 ## Dataset Structure
 
@@ -86,12 +86,6 @@ Below is a overview of the soccer event dataset.
 SEV___Dataset.zip
     |
     |── Train (directories of Events names)
-    |     ├── Penaly Kick
-    |     |
-    |     |── Free Kick
-    |     |
-    |     └── .....   
-    |── Validation (directories of Events names)
     |     ├── Penaly Kick
     |     |
     |     |── Free Kick
@@ -108,7 +102,7 @@ SEV___Dataset.zip
 ## How to download dataset
 
 
-You can download the dataset from [here](https://#)
+You can download the dataset from [here](https://drive.google.com/drive/folders/1jzt7g0KqFNTshEAau95aScPWin55g31E?usp=sharing)
 
 
 # Citation
