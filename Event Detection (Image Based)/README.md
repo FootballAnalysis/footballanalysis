@@ -32,7 +32,7 @@ our work has some improvements and advantages as below:
 2. Setting a Threshold in the Classification Network.
 3. Using 3 image classes in EfficientNet to ensure that the event images are not mistakenly assigned to the classes related to these events.
 
-- Using our new [Soccer event dataset](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Soccer%20Event%20Dataset%20(Image)).
+- Using our new [Soccer event dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Soccer%20Event%20Dataset%20(Image)).
 
 
 ## Demo Application (As soon as possible we release trained-models in our repository)
