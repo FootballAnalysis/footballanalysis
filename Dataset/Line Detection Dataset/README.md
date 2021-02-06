@@ -12,13 +12,12 @@ The dataset consists of different scene images with their corresponding labels. 
 
 A sample image with its corresponding labels is shown below **(Figure 1)**.
 
+<p align="center">
+    <img src="./Images/Line_Detection.jpg" width = 640px height = 360px><br/>
+	 Figure 1. Sample of Line Detection Dataset
+</p>
 
 
-<div align="center">
-<img src="Images/Line_Detection.jpg" alt="Line Detection Dataset"  width="640" height="360" >  
-<figcaption> Figure 1. Sample of Line Detection Dataset </figcaption>
-
-</div>
 
 
 
@@ -38,16 +37,3 @@ data/                           # folder for Line Detection dataset
 
 
 You can download the dataset from [here](https://#)
-
-## Citation
-
-When using this dataset in your research, please cite us:
-
-```
-@inproceedings{,
-  title={},
-  author={},
-  booktitle={},
-  year={}
-}
-```
