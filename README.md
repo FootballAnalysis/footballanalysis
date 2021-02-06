@@ -17,7 +17,7 @@ Our services contain a broad range of soccer data analysis from providing multim
 </p>
 
 
-2. **[Event Detection (Video based)] **: Soccer event detection is a foundation of Soccer match analysis. Given the fact that soccer is one of the most popular sport in the world, we tried to detect and classify some of the most important events using soccer video clips which can be of interest of soccer technical analyzer. For this purpose, we created a new dataset containing various event categories and applied different deep learning model on them.
+2. [Event Detection (Video based)] : Soccer event detection is a foundation of Soccer match analysis. Given the fact that soccer is one of the most popular sport in the world, we tried to detect and classify some of the most important events using soccer video clips which can be of interest of soccer technical analyzer. For this purpose, we created a new dataset containing various event categories and applied different deep learning model on them.
 
 
 <p align="center">
@@ -74,7 +74,7 @@ finally, our datasets for each task which are collected for this project and ava
 2. [Line Detection Dataset (LDD)](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Line%20Detection%20Dataset)
 3. [Segmentation Dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Segmentation%20Dataset)
 4. [Event Detection Dataset (Image Based)](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Soccer%20Event%20Dataset%20(Image))
-5. [Event Detection Dataset (Video Based)](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Soccer%20Event%20Dataset%20(Video))
+5. [Event Detection Dataset (Video Based)]
 3. [Object Detection Dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Object%20Detection%20Dataset)
 
 ### Contributing
