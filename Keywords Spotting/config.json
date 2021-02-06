@@ -1,0 +1,23 @@
+{
+    "server": {
+        "server.socket_port": 16888,
+        "server.socket_host": "0.0.0.0"
+    },
+    "commands": "Tackle,Throw in,Fouls,Goal,Offside,Corner,Penalty,Substitute,Hand,Free kick,laying off,Out,Notice,Yello card",
+    "model_path": "model/model.pt",
+    "backend": "pytorch",
+    "train_script": "utils/model.py",
+    "speech_dataset_path": "/tmp/speech_dataset/",
+    "model_options": {
+        "no_cuda": true,
+        "dev_pct": 5,
+        "test_pct": 0,
+        "train_pct": 95,
+        "n_epochs": "300",
+        "dev_every": 5,
+        "data_folder": "/tmp/speech_dataset/",
+        "output_file": "model/model.pt",
+        "unknown_prob": 0.2,
+        "gpu_no": 0
+    }
+}

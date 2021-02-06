@@ -1,0 +1,13 @@
+chainmap
+cherrypy>=11.0.0,<=11.99
+librosa>=0.6.2,<=0.6.3
+Flask>=0.12.1
+numpy>=1.12
+Pillow>=4.0.0,<=4.99
+PyAudio>=0.2
+PyOpenGL>=3.1.0,<=3.1.99
+PyOpenGL_accelerate
+pyttsx3==2.6
+requests>=2.18,<=2.99
+SpeechRecognition==3.7.1
+git+https://github.com/daemon/pytorch-pcen
