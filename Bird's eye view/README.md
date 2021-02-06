@@ -58,10 +58,12 @@ Finally, we draw new points on a screen that has a top view of the football fiel
 
 You can see the output result below.
 
-<div align="center">
-<img src="Images/Bird.gif" alt="Bird's eye view"  width="618" height="346" >  
-<figcaption> Figure 1. sample output of Bird's Eye View </figcaption>
-</div>
+
+<p align="center">
+    <img src="/Images/Bird.gif" width = 618px height = 346px><br/>
+	 Figure 1. sample output of Bird's Eye View
+</p>
+
 
 
 
