@@ -51,7 +51,7 @@ The Test Event dataset is used to test the event detection network. This dataset
 <br/>
 <br/>
 
-Starter code for the dataset can be found [here](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Event%20Detection%20(Image%20Based)). In addition to training code, you will also find python scripts for evaluating standard metrics for comparisons between models.
+Starter code for the dataset can be found [here](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Soccer%20Event%20Dataset%20(Image)). In addition to training code, you will also find python scripts for evaluating standard metrics for comparisons between models.
 
 # Dataset Statistics
 
