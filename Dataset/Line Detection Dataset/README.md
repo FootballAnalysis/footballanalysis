@@ -32,8 +32,3 @@ data/                           # folder for Line Detection dataset
         sample:[{"filename": "image_1.jpg", "lines": [[6, 280, 697, 250], [5, 281, 546, 252]], "height": 1080, "width": 1920}]
     validation.json                             
 ```
-
-## How to download dataset
-
-
-You can download the dataset from [here](https://#)
