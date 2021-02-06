@@ -1,5 +1,0 @@
-Center.zip filter=lfs diff=lfs merge=lfs -text
-Corner.zip filter=lfs diff=lfs merge=lfs -text
-Free-Kick.zip filter=lfs diff=lfs merge=lfs -text
-Left.zip filter=lfs diff=lfs merge=lfs -text
-Penalty.zip filter=lfs diff=lfs merge=lfs -text
