@@ -1,0 +1,1 @@
+Download the trained model from [this link]() and put all 4 files in the current directory.

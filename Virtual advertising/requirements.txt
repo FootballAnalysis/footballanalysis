@@ -1,0 +1,11 @@
+tensorboardx
+PyYAML 
+docopt 
+matplotlib 
+scikit-image 
+opencv-python
+torch
+
+
+
+
