@@ -11,11 +11,10 @@ This is done by three sub-modules:
 The overal architecture is displayed as below :
 
 
-<div align="center">
-<img align="center" src="./Imgs/Algorithm.png"  width = 700px height = 200px>
-<figcaption>Figure 1. Flowchart </figcaption>
-</div>
-
+<p align="center">
+    <img src="./Imgs/Algorithm.png"  width = 700px height = 200px><br/>
+	Figure 1. Flowchart 
+</p>
 
 Results of each sub-module are displayed in the results section.  
 
@@ -53,7 +52,8 @@ The input is the GAN output and the ouput is parametric lines. It must be traine
 
 ## Some results
 
-<div align="center">
-<img align="center" src="../Images/virtual_advertising.jpg" alt="5 Footballinfo Submodules" width = 640px height = 400px>
-<figcaption>Figure 1. sample output of Virtual Advertising module</figcaption>
-</div>
+<p align="center">
+    <img src="../Images/virtual_advertising.jpg" alt="5 Footballinfo Submodules" width = 640px height = 400px><br/>
+	Figure 2. sample output of Virtual Advertising module
+</p>
+
