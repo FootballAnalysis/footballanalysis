@@ -1,4 +1,4 @@
-# Event Dataset (Image Based)   -- (Repository Under Construction)
+# Event Dataset (Image Based)
 
 ## General Info
 
@@ -15,12 +15,11 @@ This service currently could distinguish seven events as follows (more events wi
 - Substitute
 
 
-<br/>
-<div align="center">
-<img src="Images/Algorithm.jpg" alt="Algorithm"  width="928" height="162.5" >  
-<figcaption>Figure 1. Proposed algorithm </figcaption>
+<p align="center">
+    <img src="./Images/Algorithm.jpg" width = 928px height = 163px><br/>
+	Figure 1. Proposed algorithm 
+</p>
 
-</div>
 
 <br/>
 
@@ -33,10 +32,10 @@ our work has some improvements and advantages as below:
 2. Setting a Threshold in the Classification Network.
 3. Using 3 image classes in EfficientNet to ensure that the event images are not mistakenly assigned to the classes related to these events.
 
-- Using our new [Soccer event dataset](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Soccer%20Event%20Dataset%20(Image)).
+- Using our new [Soccer event dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Soccer%20Event%20Dataset%20(Image)).
 
 
-## Demo Application
+## Demo Application (As soon as possible we release trained-models in our repository)
 
 If you want to train networks from scratch, Please Skip this section and go to the Training section.
 
@@ -49,7 +48,7 @@ To deploy the demo, run the following commands:
 
 The results will be saved in "video/output/" directory.
 
-## Training
+## Training (As soon as possible we release codes in our repository)
 
 To train networks from scratch, run the following commands:
 - Download Code Folder
@@ -62,19 +61,19 @@ To train networks from scratch, run the following commands:
 
 - sample of event detection :
 
-<br/>
-<div align="center">
-<img src="Images/img_event2.jpg" alt="Event Detection (Image based)"  width="200" height="306" >  
-<figcaption>Figure 2. sample input of event detection</figcaption>
-
-</div>
+<p align="center">
+    <img src="./Images/img_event2.jpg" width = 200px height = 306px><br/>
+	Figure 2. sample input of event detection
+</p>
 
 <br/>
-<div align="center">
-<img src="Images/img_event3.png" alt="Event Detection (Video based)"  width="266" height="205" >  
-<figcaption>Figure 3. sample output of event detection</figcaption>
 
-</div>
+<p align="center">
+    <img src="./Images/img_event3.png" width = 266px height = 205px><br/>
+	Figure 3. sample output of event detection
+</p>
+
+
 
 
 ## Citation
