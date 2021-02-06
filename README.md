@@ -1,4 +1,4 @@
-## Football Analysis
+## Football Analysis (Under construction)
 <div align="center">
 <img align="center" src="./Images/icon.png" alt="5 Footballinfo Submodules" width = 640px height = 600px>
 </div>
@@ -22,7 +22,7 @@ Our services contain a broad range of soccer data analysis from providing multim
 
 <p align="center">
     <img src="./Images/vid_event.gif"  width = 400px height = 240px><br/>
-	Figure 1. sample output of event detection (video based) module
+	Figure 2. sample output of event detection (video based) module
 </p>
 
 
@@ -98,18 +98,24 @@ Feel free to contact us for any further information via below channels.
 - Email: [*akhaee@ut.ac.ir*](akhaee@ut.ac.ir)
 - Homepage: [*Mohammad Ali Akhaee*](https://ece.ut.ac.ir/en/~akhaee)
 
-###### Alireza Yaghoobpour
-
-- Homepage: [*Alireza Yaghoobpour*](https://github.com/yaghoobpour)
-- LinkedIn: [*Alireza Yaghoobpour*](https://www.linkedin.com/in/alireza-yaghoobpour-65804615a/)
-- Email: [*yaghoobpour@gmail.comr*](yaghoobpour@gmail.com)
-
 ###### Ramin Toosi
 
 - Homepage: [*Ramin Toosi*](https://ramintoosi.github.io/ROSS/)
 - LinkedIn: [*Ramin Toosi*](https://www.linkedin.com/in/ramin-toosi-54308296/)
 - Email: [*r.toosi@ut.ac.ir*](r.toosi@ut.ac.ir)
 
+
+###### Ali Karimi
+- Homepage: [*Ali Karimi*](https://alikarimi120.github.io/)
+- LinkedIn: [*Ali Karimi*](https://www.linkedin.com/in/alikarimi120)
+- Email: [*alikarimi120@gmail.com*](alikarimi120@gmail.com)
+
+
+###### Alireza Yaghoobpour
+
+- Homepage: [*Alireza Yaghoobpour*](https://github.com/yaghoobpour)
+- LinkedIn: [*Alireza Yaghoobpour*](https://www.linkedin.com/in/alireza-yaghoobpour-65804615a/)
+- Email: [*yaghoobpour@gmail.comr*](yaghoobpour@gmail.com)
 
 ###### Arghavan Aghadavood
 - LinkedIn: [*Arghavan Aghadavood*](https://www.linkedin.com/in/arghavan-aghadavood-88a9b9173)
@@ -119,29 +125,26 @@ Feel free to contact us for any further information via below channels.
 - LinkedIn: [*Iman Masroori*](https://www.linkedin.com/in/iman-masroori-1694711a6/)
 - Email: [*imanmasrori@yahoo.com*](imanmasrori@yahoo.com)
 
-###### Ali Karimi
-- Homepage: [*Ali Karimi*](https://alikarimi120.github.io/)
-- LinkedIn: [*Ali Karimi*](https://www.linkedin.com/in/alikarimi120)
-- Email: [*alikarimi120@gmail.com*](alikarimi120@gmail.com)
-
-
-###### Mostafa Alavi
-- LinkedIn: [*Mostafa Alavi*](https://www.linkedin.com/in/mostafa-alavi-564b90164)
-- Email: [*saiedmostafa.alavi@ee.sharif.edu*](saiedmostafa.alavi@ee.sharif.edu)
-
-###### Amirhossein Kazerooni
-
-- LinkedIn: [*Amirhossein Kazerooni*](https://www.linkedin.com/in/amirhossein-kazerooni-167511150)
-- Email: [*amirhossein477@gmail.com*](amirhossein477@gmail.com)
 
 ###### Amirmohhammad Rostami:
 - Homepage: [*Amir Mohamamd Rostami*](https://ce.aut.ac.ir/~amirmohammadrostami/)
 - LinkedIn: [*Amir Mohamamd Rostami*](https://www.linkedin.com/in/amirmohammadrostami/)
 - Email: [*amirmohammadrostami@yahoo.com*](emailto:amirmohammadrostami@yahoo.com)
 
+###### Amirhossein Kazerooni
+
+- LinkedIn: [*Amirhossein Kazerooni*](https://www.linkedin.com/in/amirhossein-kazerooni-167511150)
+- Email: [*amirhossein477@gmail.com*](amirhossein477@gmail.com)
+
+
+###### Mostafa Alavi
+- LinkedIn: [*Mostafa Alavi*](https://www.linkedin.com/in/mostafa-alavi-564b90164)
+- Email: [*saiedmostafa.alavi@ee.sharif.edu*](saiedmostafa.alavi@ee.sharif.edu)
+
+
 ### License
 
--  LICENSE . . .
+-  MIT License
 
 ### Change Logs
 
