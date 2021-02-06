@@ -19,7 +19,7 @@ The position of the camera next to the playground changes according to where the
 Tracking an object and drawing a bird's eye view of that object requires the installation of bounding boxes around that object in the image. For this purpose, Object Detection is used. It identifies and indicates a location of objects in bounding boxes in an image.
 Therefore, The first step is that the `ball` and `players` must be identified in the camera view.
 
-We trained our [custom dataset](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Datasets/Object%20Detection%20Dataset) on [Yolov5](https://github.com/ultralytics/yolov5) for both the player and ball classes.
+We trained our [custom dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Object%20Detection%20Dataset) on [Yolov5](https://github.com/ultralytics/yolov5) for both the player and ball classes.
 - If you want to train our dataset from scratch or want to train on your dataset, please refer to [this site](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) for more information.
 
 You can see the results in below.
@@ -45,9 +45,12 @@ We then obtain the new coordinates of the detected objects center using the hemo
 
 - To transform the location of a point you can use the following transformation:
 
-<div align="center">
-<img src="Images/Transformation-Formula.jpg" alt="Bird's eye view"  width="584" height="60" >  
-</div>
+<p align="center">
+    <img src="/Images/Transformation-Formula.jpg" width = 584px height = 60px><br/>
+	Figure 1. sample output of event detection (image based) module
+</p>
+
+
 
 - Where `(x, y)` is the original point, and `M` is our perspective matrix.
 
