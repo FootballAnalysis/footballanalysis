@@ -52,9 +52,12 @@ The results will be saved in "video/output/" directory.
 
 To train networks from scratch, run the following commands:
 - Download Code Folder
-- Install Python3
-- Install Python dependencies: `pip install -r requirements.txt`
-- Run the code: `python main.py `
+- EfficientNetB0 :
+- pip install tensorflow-gpu
+- pip install efficientnet
+- Run the code: `python3 efficientnetb0.py --dataset /data2/soccerdateset --save_directory modeloutput --epoch 8 --batchsize 32  --dims 112 --lr 1e-4 --num_train 50000 --num_validation 5000  --neuron 256 --gpu 0 `
+- Other Codes in ipynb format
+
 
 
 ## Some Results
