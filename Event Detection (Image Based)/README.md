@@ -25,12 +25,12 @@ This service currently could distinguish seven events as follows (more events wi
 
 This module has been implemented using Neural Networks. The proposed algorithm of this network is presented in fig (1). 
 our work has some improvements and advantages as below:
-- using of the [EfficientNet](https://arxiv.org/abs/1905.11946) architecture for image classification
+- using of the new architecture for image classification
 - using the Fine-grained architecture and solving the problems related to yellow and red card classification
 - Improving the recognition of No Highlights images and event images using 3 methods
 1. using of VAE.
 2. Setting a Threshold in the Classification Network.
-3. Using 3 image classes in EfficientNet to ensure that the event images are not mistakenly assigned to the classes related to these events.
+3. Using 3 image classes in image classification module to ensure that the event images are not mistakenly assigned to the classes related to these events.
 
 - Using our new [Soccer event dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Soccer%20Event%20Dataset%20(Image)).
 
@@ -52,10 +52,8 @@ The results will be saved in "video/output/" directory.
 
 To train networks from scratch, run the following commands:
 - Download Code Folder
-- EfficientNetB0 :
 - pip install tensorflow-gpu
-- pip install efficientnet
-- Run the code: `python3 EfficientNetB0.py --dataset /data2/soccerdateset --save_directory modeloutput --epoch 8 --batchsize 32  --dims 112 --lr 1e-4 --num_train 50000 --num_validation 5000  --neuron 256 --gpu 0 `
+- Run the code: `python3 train.py --dataset /data2/soccerdateset --save_directory modeloutput --epoch 8 --batchsize 32  --dims 112 --lr 1e-4 --num_train 50000 --num_validation 5000  --neuron 256 --gpu 0 `
 - Other Codes in ipynb format
 
 
