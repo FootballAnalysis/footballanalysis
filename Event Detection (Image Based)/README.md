@@ -25,7 +25,7 @@ This service currently could distinguish seven events as follows (more events wi
 
 This module has been implemented using Neural Networks. The proposed algorithm of this network is presented in fig (1). 
 our work has some improvements and advantages as below:
-- using of the new architecture for image classification
+- using the new architecture for image classification
 - using the Fine-grained architecture and solving the problems related to yellow and red card classification
 - Improving the recognition of No Highlights images and event images using 3 methods
 1. using of VAE.
@@ -43,7 +43,7 @@ To deploy the demo, run the following commands:
 - Download Code Folder
 - change directory to Event Detection Module Repository.
 - Install Python dependencies: `pip install -r requirements.txt`
-- Put your football into "video/input/" directory.
+- Put soccer video into "video/input/" directory.
 - Run the demo: `python event_demo.py `
 
 The results will be saved in "video/output/" directory.
