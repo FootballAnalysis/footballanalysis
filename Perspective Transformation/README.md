@@ -17,7 +17,7 @@ This is composed of three sub-modules:
 The architecture of algorithm can be displayed as below :
 
 <div align="center">
-<img align="center" src="./images/Capture.JPG" alt="5 Footballinfo Submodules" width = 640px height = 500px>
+<img align="center" src="./images/Capture.JPG" alt="5 Footballinfo Submodules" width = 800px height = 500px>
 </div>
 
 We follow this algorithm for test phase :
@@ -46,7 +46,7 @@ To deploy the demo, run the following commands:
 - Change directory to  Perspective transformation Module Repository.
 - If you do not have PyTorch, please see [the website](http://pytorch.org).
 - Install Python dependencies: `pip install -r requirements.txt`
-- Download the trained model from [this link](http://pytorch.org) and put all 4 files in the `./python_codes/pytorch-two-GAN-master/checkpoints/soccer_seg_detection_pix2pix/ ` directory
+- Download the trained model from [this link](https://drive.google.com/uc?export=download&id=15eBQRfiQgb-h2RK5hki0NJu10O7uXAz3) and put all 4 files in the `./python_codes/pytorch-two-GAN-master/checkpoints/soccer_seg_detection_pix2pix/ ` directory
 - For a single image, Run the demo: `python demo_image.py --image [address of image what you want to test] --advertising_image [address of advertising image what you want to overlay ; This argument is not required] `
 - For a video, Run the demo: `python demo_video.py --image [address of video what you want to test] --advertising_image [address of advertising image what you want to overlay ; This argument is not required]`
 
