@@ -29,10 +29,10 @@ To deploy the demo, run the following commands:
 - Install Python dependencies: `pip install -r requirements.txt`
 
 - For a single image:
-1. Download the trained GAN model from [this link](http://pytorch.org) and put both 2 files into the `./python_codes/LCNN_GAN/GAN/checkpoints/datasets/` directory
-2. Download the trained LCNN model from [this link](http://pytorch.org) and put it into the `./python_codes/LCNN_GAN/logs/` directory
+1. Download the trained GAN models from [this link](https://drive.google.com/uc?export=download&id=1KDIT5y6cmkK1x9vHOtMMtsB0H9yL9jJn) and put both files into the `./python_codes/LCNN_GAN/GAN/checkpoints/datasets/` directory
+2. Download the trained LCNN model from [this link](https://drive.google.com/uc?export=download&id=1YLS4oyetw_fQaHm7xY_-4k7HMn-QOJkS) and put it into the `./python_codes/LCNN_GAN/logs/` directory
 3. Change directory to the `LCNN_GAN/` directory 
-4. Put [our dataset](http://pytorch.org)  in the `./data/worldcup_raw/`directory or create your own dataset just like us and put it in the mentioned directory.
+4. Put [our dataset]() in the `./data/worldcup_raw/`directory or create your own dataset just like us and put it in the mentioned directory. (Incomplete)
 5. Run `./dataset/wireframe.py --./data/worldcup_raw --./data/worldcup`  
 6. Put your football images into `main_directory/images/` directory.
 7. Run the demo: `python demo_image.py --advertising_image [address of advertising image what you want to overlay]`
