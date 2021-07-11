@@ -12,31 +12,31 @@ The position of the camera next to the playground changes according to where the
 
    2. Tracking
 
-   3. Perspective Transform
+   3. Perspective Transformation
+   
+   4. Color Detection 
 
 
 ## Yolov5 for Object Detection
 Tracking an object and drawing a bird's eye view of that object requires the installation of bounding boxes around that object in the image. For this purpose, Object Detection is used. It identifies and indicates a location of objects in bounding boxes in an image.
-Therefore, The first step is that the `ball` and `players` must be identified in the camera view.
+Therefore, The first step is that the `player` and `ball` must be identified in the camera view.
 
 We trained our [custom dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Object%20Detection%20Dataset) on [Yolov5](https://github.com/ultralytics/yolov5) for both the player and ball classes.
 - If you want to train our dataset from scratch or want to train on your dataset, please refer to [this site](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) for more information.
 
-You can see the results in below.
 
-|              |   Percision    |    Recall     |
-|    :---:     |     :---:      |    :---:      |
-|   YOLOv5s    |     0.881      |    0.916      |
-|   YOLOv5m    |    soon        |    soon       |
-|   YOLOv5l    |    soon        |    soon       |
-|   YOLOv5x    |    soon        |    soon       |
+## Deep-Sort for Tracking
 
-## Deep-Sort for Tracking With PyTorch 
-
-The most popular and one of the most widely used, elegant object tracking framework is [Deep SORT](https://arxiv.org/pdf/1703.07402.pdf).Tracking has many uses, including determining the average speed of players, getting their heatmaps, and many more.
+The most popular and one of the most widely used, elegant object tracking framework is [Deep SORT](https://arxiv.org/pdf/1703.07402.pdf). Tracking has many uses, including determining the average speed of players, getting their heatmaps, and many more.
 We used it here to track players and assign unique IDs to them.
  
 - If you want to train Deep Sort from scratch, please refer to [this site](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) for more information.
+- The implementation of this part is taken from [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch).
+
+## K-means for Color Detection
+The structure of this section is drawn in Figure 1, wherein the K-means algorithm has been used to detect the color of the player's jersey. We have MxN pixels for each picture, each of which is made up of three components: Red, Green, and Blue. We'll take these MxN pixels as data points and use K-means to cluster them. The output of K-means is the clusters of the colors which has more similarity with each other. 
+Here are two classes to fit K-means. Due to the green color of the grass in the background of the image, the most likely color to be detected will be green. For this purpose, the second color will be considered.
+For better display, the detected color distance is calculated with the colors in the palette formed by the base colors, and the base color with the shortest distance from the detected color is selected for display.
 
 ## Bird's Eye View
 
@@ -60,38 +60,29 @@ You can see the output result below.
 
 <p align="center">
     <img src="/Images/Bird.gif" width = 618px height = 346px><br/>
-	 Figure 1. sample output of Bird's Eye View
+	 Figure 2. sample output of Bird's Eye View
 </p>
 
 
 
 
 - The two teams are separated by blue and white according to the color of their jersey.
-- The ball is shown in yellow (If the ball is not detected, it uses the previously detected coordinates).
-- The refrees are shown in pink according to the color of their jersey.
-- **To identify the color of the players' and referee's jersey, you can use the Yolo object detection to extract the image of each player from the test video and then train a simple classification on it.**
+- The ball is shown in yellow.
+- The refree is shown in pink according to the color of his jersey.
+
 
 ## Requirements
 
 Please run the following code to install the Requirements.
 
-`pip install -U -r requirements.txt`
+`pip install -r requirements.txt`
 
-## Pre-trained Models
-
-- Yolov5 Pre-trained Models on our Custom Dataset:
-   - [YOLOv5s Model]()
-   - [YOLOv5m Model]()
-   - [YOLOv5l Model]()
-   - [YOLOv5x Model]()
-- Deep Sort Pre-trained Model :
-   - [Deep_Sort Model]()
 
 ## Preparation and Run the code:
 
-1. Download the Yolov5 pre-trained model and place the downlaoded `.pt` file under `yolov5/weights/`.
-2. Download the Deep Sort pre-trained model and place the downlaoded `ckpt.t7` file under `deep_sort/deep/checkpoint/`.
-6. Test on video and see the demo results using the command mentioned in the next line:
+1. Download the models from [here]() and place them under `weights/`.
+2. Test on video and see the demo results using the command mentioned in the next line:
 ```bash
-$ python3 track.py --source test_video.mp4
+$ python3 track.py --source test_video.mp4 [--view] [--save]
 ```
+3. If you use the `--save` argument, the output will be saved in the `inference/output` folder.
