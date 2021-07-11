@@ -38,6 +38,13 @@ The structure of this section is drawn in Figure 1, wherein the K-means algorith
 Here are two classes to fit K-means. Due to the green color of the grass in the background of the image, the most likely color to be detected will be green. For this purpose, the second color will be considered.
 For better display, the detected color distance is calculated with the colors in the palette formed by the base colors, and the base color with the shortest distance from the detected color is selected for display.
 
+
+![Color](https://user-images.githubusercontent.com/61879630/125197281-38154800-e272-11eb-936c-c3c47182890e.PNG)
+                                                        
+ <p align="center">
+	  Figure 1. The Structure of Color Detection
+</p>
+
 ## Bird's Eye View
 
 To draw a bird's eye view, we need a hemography matrix, and here we obtain this matrix using the Perspective transformation Module described [here](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Perspective%20Transformation).
@@ -80,7 +87,7 @@ Please run the following code to install the Requirements.
 
 ## Preparation and Run the code:
 
-1. Download the models from [here]() and place them under `weights/`.
+1. Download the models from [here](https://docs.google.com/uc?export=download&id=1EaBmCzl4xnuebfoQnxU1xQgNmBy7mWi2) and place them under `weights/`.
 2. Test on video and see the demo results using the command mentioned in the next line:
 ```bash
 $ python3 track.py --source test_video.mp4 [--view] [--save]
