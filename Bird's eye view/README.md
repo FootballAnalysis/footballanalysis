@@ -47,7 +47,7 @@ For better display, the detected color distance is calculated with the colors in
 
 ## Bird's Eye View
 
-To draw a bird's eye view, we need a hemography matrix, and here we obtain this matrix using the Perspective transformation Module described [here](https://gitlab.com/footballanalysis/FootballAnalysis/-/tree/master/Perspective%20Transformation).
+To draw a bird's eye view, we need a hemography matrix, and here we obtain this matrix using the Perspective transformation Module described [here](https://github.com/FootballAnalysis/footballanalysis/tree/main/Perspective%20Transformation).
 We then obtain the new coordinates of the detected objects center using the hemographic matrix obtained by the Perspective transformation Module.
 
 - To transform the location of a point you can use the following transformation:
