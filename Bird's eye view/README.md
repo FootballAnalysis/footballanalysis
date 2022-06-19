@@ -4,7 +4,6 @@
 
 Understanding the 3D layout of a scene from a single perspective image is one of the fundamental problems in computer vision. The position of the camera next to the playground varies based on the focus point of the camera. However, with the advancement of technology and computer vision, we can modify the viewing experience from a fully 2D perspective to a near 3D experience included the top view that provides beneficial information to assess soccer players. In the following, it has been attempted to explain how to draw the bird's eye view of a soccer game.
 
-
 - We go through three steps to get the Bird's Eye View:
 
    1. Object Detection
@@ -15,7 +14,6 @@ Understanding the 3D layout of a scene from a single perspective image is one of
 
    4. Perspective Transformation
    
-
 
 ## Yolov5 for Object Detection
 Tracking an object and drawing the bird's eye view requires the installation of bounding boxes around the specified object in the image. Therefore, we must first identify the ball and player classes.
