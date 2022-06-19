@@ -3,6 +3,9 @@
 <img align="center" src="./Images/icon.png" alt="5 Footballinfo Submodules" width = 640px height = 600px>
 </div>
 
+![](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=footballanalysis.footballanalysis) 
+
+
 Our services contain a broad range of soccer data analysis from providing multimodal datasets (image, video and sounds) to advanced components such as event detection, virtual advertising and keyword spotting. visit our [website](https://footballanalysis.github.io/) for more information.
 
 **Our main submodules are as below: (please click on each for more information)**
