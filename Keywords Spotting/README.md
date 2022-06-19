@@ -43,3 +43,14 @@ Feel free to contact us for any further information via below channels.
 - email: [*akhaee@ut.ac.ir*](akhaee@ut.ac.ir)
 - homepage: [*Mohammad Ali Akhaee*](https://ece.ut.ac.ir/en/~akhaee)
 
+
+
+## Cite us
+
+@article{rostami2022keyword,
+  title={Keyword spotting in continuous speech using convolutional neural network},
+  author={Rostami, Amir Mohammad and Karimi, Ali and Akhaee, Mohammad Ali},
+  journal={Speech Communication},
+  year={2022},
+  publisher={Elsevier}
+}
