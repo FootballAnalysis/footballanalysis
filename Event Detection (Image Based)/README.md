@@ -35,27 +35,6 @@ our work has some improvements and advantages as below:
 - Using our new [Soccer event dataset](https://github.com/FootballAnalysis/footballanalysis/tree/main/Dataset/Soccer%20Event%20Dataset%20(Image)).
 
 
-## Demo Application (As soon as possible we release trained-models in our repository)
-
-If you want to train networks from scratch, Please Skip this section and go to the Training section.
-
-To deploy the demo, run the following commands:
-- Download Code Folder
-- change directory to Event Detection Module Repository.
-- Install Python dependencies: `pip install -r requirements.txt`
-- Put soccer video into "video/input/" directory.
-- Run the demo: `python event_demo.py `
-
-The results will be saved in "video/output/" directory.
-
-## Training (As soon as possible we release codes in our repository)
-
-To train networks from scratch, run the following commands:
-- Download Code Folder
-- pip install tensorflow-gpu
-- Run the code: `python3 train.py --dataset /data2/soccerdateset --save_directory modeloutput --epoch 8 --batchsize 32  --dims 112 --lr 1e-4 --num_train 50000 --num_validation 5000  --neuron 256 --gpu 0 `
-- Other Codes in ipynb format
-
 
 
 ## Some Results
@@ -82,11 +61,11 @@ To train networks from scratch, run the following commands:
 When using this code in your research, please cite us:
 
 ```
-@inproceedings{,
-  title={},
-  author={},
-  booktitle={},
-  year={}
+@article{karimi2021soccer,
+  title={Soccer Event Detection Using Deep Learning},
+  author={Karimi, Ali and Toosi, Ramin and Akhaee, Mohammad Ali},
+  journal={arXiv preprint arXiv:2102.04331},
+  year={2021}
 }
 ```
 
