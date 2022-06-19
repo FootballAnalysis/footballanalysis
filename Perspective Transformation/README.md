@@ -7,6 +7,7 @@ Some additional outputs also is generated which can be used for another applicat
 
 Perspective transformation Module  is a PyTorch implementation of  [Sports Camera Calibration via Synthetic Data](https://arxiv.org/abs/1810.10658) paper.
 This is composed of three sub-modules:
+
 1. A [pix2pix GAN](https://arxiv.org/abs/1611.07004) for segmenatation of grass field from other parts of stadium
 2. A [pix2pix GAN](https://arxiv.org/abs/1611.07004) network for football field lines detection
 3. A database of football field line images 
