@@ -29,6 +29,7 @@ To deploy the demo, run the following commands:
 - Install Python dependencies: `pip install -r requirements.txt`
 
 - For a single image:
+- 
 1. Download the trained GAN models from [this link](https://drive.google.com/uc?export=download&id=1KDIT5y6cmkK1x9vHOtMMtsB0H9yL9jJn) and put both files into the `./python_codes/LCNN_GAN/GAN/checkpoints/datasets/` directory
 2. Download the trained LCNN model from [this link](https://drive.google.com/uc?export=download&id=1YLS4oyetw_fQaHm7xY_-4k7HMn-QOJkS) and put it into the `./python_codes/LCNN_GAN/logs/` directory
 3. Change directory to the `LCNN_GAN/` directory 
